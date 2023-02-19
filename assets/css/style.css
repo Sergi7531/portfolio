@@ -33,11 +33,11 @@ body::before {
 }
 
 a {
-  color: #12d640;
+  color: #3CDFFF;
 }
 
 a:hover {
-  color: #12d640;
+  color: #3CDFFF;
   text-decoration: none;
 }
 
@@ -80,12 +80,11 @@ h1, h2, h3, h4, h5, h6 {
 #header h2 {
   font-size: 24px;
   margin-top: 20px;
-  color: #12d640;
+  color: #3CDFFF;
 }
 
 #header h2 span {
   color: #ffc107;
-  border-bottom: 2px solid #1c7d32;
   padding-bottom: 6px;
 }
 
@@ -182,7 +181,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #12d640;
+  color: #3CDFFF;
   text-decoration: none;
 }
 
@@ -329,6 +328,7 @@ section.section-show {
 section .container {
   background: rgba(0, 0, 0, 0);
   padding: 30px;
+  margin-top: 50px;
 }
 
 @media (max-width: 768px) {
@@ -486,6 +486,10 @@ section .container {
   transition: ease-in-out 0.3s;
 }
 
+.img-fluid {
+  border-radius: 50%;
+}
+
 
 .interests .icon-box i {
   font-size: 32px;
@@ -500,6 +504,7 @@ section .container {
   line-height: 1;
   font-size: 16px;
   color: #fff;
+  margin-left: 22px;
 }
 
 .interests .icon-box:hover {
@@ -727,7 +732,7 @@ section .container {
 }
 
 .services .icon-box:hover h4 a, .services .icon-box:hover p {
-  color: #12d640;
+  color: #3CDFFF;
 }
 
 /*--------------------------------------------------------------
@@ -936,7 +941,7 @@ section .container {
 }
 
 .contact .info-box .social-links a:hover {
-  color: #12d640;
+  color: #3CDFFF;
 }
 
 .contact .php-email-form {
